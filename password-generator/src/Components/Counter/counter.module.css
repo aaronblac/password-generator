@@ -1,0 +1,32 @@
+.container,
+.buttonContainer{
+    display:flex;
+    align-items:center;
+    color:#ffffff;
+}
+.buttonContainer{
+    width:3.75rem;
+}
+.container{
+    gap:.5rem;
+}
+.counter{
+    margin:auto;
+    font-size:1rem;
+}
+
+.countText{
+    font-size:.9rem;
+}
+.button{
+    background-color:#10B981;
+    color:#ffffff;
+    border:none;
+    border-radius:4px;
+    width: 1rem;
+    height: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.input{
+    height:2.438rem;
+    width:11.188rem;
+    position:relative;
+    border-radius:6px;
+    border:none;
+    background-color: #273549;;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.input span{
+    font-size:1rem;
+    line-height: 2rem;
+    color: #55F991;
+    cursor: pointer;
+}
+
+.input span + span{
+    visibility:hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.3);
+    border-radius:6px;
+    font-size:.75rem;
+    color:#ffffff;
+    padding: 0rem 1rem;
+    width:fit-content;
+    position:absolute;
+    top:-1.75rem;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.input span:hover + span{
+    visibility: visible;
+    opacity: 1;
+}
+
+.input.charCount{
+    width: 6rem;
+}
